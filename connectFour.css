@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 60px;
+    margin: 4px;
+}
+
+.square {
+    height: 60px;
+    width: 60px;
+    border: solid black 1px;
+    margin: 2px 2px;
+    background-color: white;
+}
+
+.redcircle {
+    border-radius: 50%;
+    background-color: red;
+    background-image: cover;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+.bluecircle {
+    border-radius: 50%;
+    background-color: blue;
+    background-image: cover;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+#no {
+    opacity: 50%;
+}
+
+#no:hover {
+    background-color: yellow;
+}
